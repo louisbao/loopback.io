@@ -1,0 +1,1294 @@
+## definition of `menuitem`===========
+# title: string
+# url: string
+# output: [ enum{web, pdf} ] (expressed as comma separated string in YAML)
+# children?: [ menuitem ]
+
+## top level property=================
+# entries: [ menuitem ]
+
+title: LoopBack 3.0
+url: /doc/zh/lb3/index.html
+translated: true
+children:
+
+- title: '安装和起步'
+  url: /doc/zh/lb3/Installation.html
+  translated: true
+  output: 'web, pdf'
+  children:
+
+  - title: '安装过程中的问题排查'
+    url: /doc/zh/lb3/Installation-troubleshooting.html
+    translated: true
+    output: 'web, pdf'
+
+- title: '3.0 版本发布说明'
+  url: /doc/zh/lb3/3.0-Release-Notes.html
+  translated: true
+  output: 'web, pdf'
+
+- title: '迁移到 3.0 版本'
+  url: /doc/zh/lb3/Migrating-to-3.0.html
+  translated: true
+  output: 'web, pdf'
+
+- title: 'LoopBack 核心概念'
+  url: /doc/zh/lb3/LoopBack-core-concepts.html
+  translated: true
+  output: 'web, pdf'
+  children:
+
+  - title: Routing
+    url: /doc/zh/lb3/Routing.html
+    translated: true
+    output: 'web, pdf'
+
+  - title: 'LoopBack FAQ'
+    url: /doc/zh/lb3/LoopBack-FAQ.html
+    translated: true
+    output: 'web, pdf'
+
+  - title: 'Glossary'
+    url: /doc/zh/lb3/Glossary.html
+    translated: true
+    output: 'web, pdf'
+
+  - title: 'StrongLoop Labs'
+    url: /doc/zh/lb3/StrongLoop-Labs.html
+    translated: true
+    output: 'web, pdf'
+
+- title: '开始学习使用 LoopBack 框架 I'
+  url: /doc/zh/lb3/Getting-started-with-LoopBack.html
+  translated: true
+  output: 'web, pdf'
+  children:
+
+  - title: 'Create a simple API'
+    url: /doc/zh/lb3/Create-a-simple-API.html
+    translated: true
+    output: 'web, pdf'
+
+  - title: 'Use API Explorer'
+    url: /doc/zh/lb3/Use-API-Explorer.html
+    translated: true
+    output: 'web, pdf'
+
+  - title: 'Connect your API to a data source'
+    url: /doc/zh/lb3/Connect-your-API-to-a-data-source.html
+    translated: true
+    output: 'web, pdf'
+
+  - title: 'Extend your API'
+    url: /doc/zh/lb3/Extend-your-API.html
+    translated: true
+    output: 'web, pdf'
+
+  - title: 'Add a static web page'
+    url: /doc/zh/lb3/Add-a-static-web-page.html
+    translated: true
+    output: 'web, pdf'
+
+  - title: 'Add a custom Express route'
+    url: /doc/zh/lb3/Add-a-custom-Express-route.html
+    translated: true
+    output: 'web, pdf'
+
+  - title: 'Next steps'
+    url: /doc/zh/lb3/Next-steps.html
+    translated: true
+    output: 'web, pdf'
+
+- title: '开始学习使用 LoopBack 框架 II'
+  url: /doc/zh/lb3/Getting-started-part-II.html
+  translated: true
+  output: 'web, pdf'
+  children:
+
+  - title: 'Introducing the Coffee Shop Reviews app'
+    url: /doc/zh/lb3/Introducing-the-Coffee-Shop-Reviews-app.html
+    translated: true
+    output: 'web, pdf'
+
+  - title: 'Create new data source'
+    url: /doc/zh/lb3/Create-new-data-source.html
+    translated: true
+    output: 'web, pdf'
+
+  - title: 'Create new models'
+    url: /doc/zh/lb3/Create-new-models.html
+    translated: true
+    output: 'web, pdf'
+
+  - title: 'Define model relations'
+    url: /doc/zh/lb3/Define-model-relations.html
+    translated: true
+    output: 'web, pdf'
+
+  - title: 'Define access controls'
+    url: /doc/zh/lb3/Define-access-controls.html
+    translated: true
+    output: 'web, pdf'
+
+  - title: 'Define a remote hook'
+    url: /doc/zh/lb3/Define-a-remote-hook.html
+    translated: true
+    output: 'web, pdf'
+
+  - title: 'Create AngularJS client'
+    url: /doc/zh/lb3/Create-AngularJS-client.html
+    translated: true
+    output: 'web, pdf'
+
+  - title: 'Learn more'
+    url: /doc/zh/lb3/Learn-more.html
+    translated: true
+    output: 'web, pdf'
+
+- title: '基础教程和代码案例'
+  url: /doc/zh/lb3/Tutorials-and-examples.html
+  translated: true
+  output: 'web, pdf'
+
+- title: '安全性提醒建议'
+  url: /doc/zh/lb3/Security-advisories.html
+  translated: true
+  output: 'web, pdf'
+  children:
+
+  - title: '03-10-2017'
+    url: /doc/zh/lb3/Security-advisory-03-10-2017.html
+    translated: true
+    output: 'web, pdf'
+
+- title: '创建一个应用'
+  url: /doc/zh/lb3/Creating-an-application.html
+  translated: true
+  output: 'web, pdf'
+  children:
+
+  - title: 'Environment-specific configuration'
+    url: /doc/zh/lb3/Environment-specific-configuration.html
+    translated: true
+    output: 'web, pdf'
+
+  - title: 'Versioning your API'
+    url: /doc/zh/lb3/Versioning-your-API.html
+    translated: true
+    output: 'web, pdf'
+
+  - title: 'Standard project structure'
+    url: /doc/zh/lb3/Standard-project-structure.html
+    translated: true
+    output: 'web, pdf'
+
+- title: '用户管理'
+  url: /doc/zh/lb3/Managing-users.html
+  translated: true
+  output: 'web, pdf'
+  children:
+
+  - title: 'Registering users'
+    url: /doc/zh/lb3/Registering-users.html
+    translated: true
+    output: 'web, pdf'
+
+  - title: 'Logging in users'
+    url: /doc/zh/lb3/Logging-in-users.html
+    translated: true
+    output: 'web, pdf'
+
+  - title: 'Partitioning users with realms'
+    url: /doc/zh/lb3/Partitioning-users-with-realms.html
+    translated: true
+    output: 'web, pdf'
+
+  - title: 'User management example'
+    url: /doc/zh/lb3/User-management-example.html
+    translated: true
+    output: 'web, pdf'
+
+- title: '认证，鉴权和权限管理'
+  url: /doc/zh/lb3/Authentication-authorization-and-permissions.html
+  translated: true
+  output: 'web, pdf'
+  children:
+
+  - title: 'Introduction to User model authentication'
+    url: /doc/zh/lb3/Introduction-to-User-model-authentication.html
+    translated: true
+    output: 'web, pdf'
+
+  - title: '控制数据的访问'
+    url: /doc/zh/lb3/Controlling-data-access.html
+    translated: true
+    output: 'web, pdf'
+
+  - title: 'Making authenticated requests'
+    url: /doc/zh/lb3/Making-authenticated-requests.html
+    translated: true
+    output: 'web, pdf'
+
+  - title: 'Defining and using roles'
+    url: /doc/zh/lb3/Defining-and-using-roles.html
+    translated: true
+    output: 'web, pdf'
+
+  - title: 'Accessing related models'
+    url: /doc/zh/lb3/Accessing-related-models.html
+    translated: true
+    output: 'web, pdf'
+
+  - title: 'Creating a default admin user'
+    url: /doc/zh/lb3/Creating-a-default-admin-user.html
+    translated: true
+    output: 'web, pdf'
+
+  - title: 'Security considerations'
+    url: /doc/zh/lb3/Security-considerations.html
+    translated: true
+    output: 'web, pdf'
+
+  - title: 'Tutorial: access control'
+    url: /doc/zh/lb3/Tutorial-access-control.html
+    translated: true
+    output: 'web, pdf'
+
+- title: '定义模型'
+  url: /doc/zh/lb3/Defining-models.html
+  translated: true
+  output: 'web, pdf'
+  children:
+
+  - title: 'Creating models'
+    url: /doc/zh/lb3/Creating-models.html
+    translated: true
+    output: 'web, pdf'
+    children:
+
+    - title: 'Using the model generator'
+      url: /doc/zh/lb3/Using-the-model-generator.html
+      translated: true
+      output: 'web, pdf'
+
+    - title: 'Discovering models from relational databases'
+      url: /doc/zh/lb3/Discovering-models-from-relational-databases.html
+      translated: true
+      output: 'web, pdf'
+
+    - title: 'Creating models from unstructured data'
+      url: /doc/zh/lb3/Creating-models-from-unstructured-data.html
+      translated: true
+      output: 'web, pdf'
+
+  - title: 'Customizing models'
+    url: /doc/zh/lb3/Customizing-models.html
+    translated: true
+    output: 'web, pdf'
+
+  - title: 'Attaching models to data sources'
+    url: /doc/zh/lb3/Attaching-models-to-data-sources.html
+    translated: true
+    output: 'web, pdf'
+
+  - title: 'Exposing models over REST'
+    url: /doc/zh/lb3/Exposing-models-over-REST.html
+    translated: true
+    output: 'web, pdf'
+
+  - title: 'Validating model data'
+    url: /doc/zh/lb3/Validating-model-data.html
+    translated: true
+    output: 'web, pdf'
+
+  - title: 'Creating model relations'
+    url: /doc/zh/lb3/Creating-model-relations.html
+    translated: true
+    output: 'web'
+    children:
+
+    - title: 'Tutorial: model relations'
+      url: /doc/zh/lb3/Tutorial-model-relations.html
+      translated: true
+      output: 'web, pdf'
+
+    - title: 'BelongsTo relations'
+      url: /doc/zh/lb3/BelongsTo-relations.html
+      translated: true
+      output: 'web, pdf'
+
+    - title: 'HasOne relations'
+      url: /doc/zh/lb3/HasOne-relations.html
+      translated: true
+      output: 'web, pdf'
+
+    - title: 'HasMany relations'
+      url: /doc/zh/lb3/HasMany-relations.html
+      translated: true
+      output: 'web, pdf'
+
+    - title: 'HasManyThrough relations'
+      url: /doc/zh/lb3/HasManyThrough-relations.html
+      translated: true
+      output: 'web, pdf'
+
+    - title: 'HasAndBelongsToMany relations'
+      url: /doc/zh/lb3/HasAndBelongsToMany-relations.html
+      translated: true
+      output: 'web, pdf'
+
+    - title: 'Polymorphic relations'
+      url: /doc/zh/lb3/Polymorphic-relations.html
+      translated: true
+      output: 'web, pdf'
+
+    - title: 'Querying related models'
+      url: /doc/zh/lb3/Querying-related-models.html
+      translated: true
+      output: 'web, pdf'
+
+    - title: 'Embedded models and relations'
+      url: /doc/zh/lb3/Embedded-models-and-relations.html
+      translated: true
+      output: 'web, pdf'
+
+    - title: 'Nested queries'
+      url: /doc/zh/lb3/Nested-queries.html
+      translated: true
+      output: 'web, pdf'
+
+- title: '使用内建的模型'
+  url: /doc/zh/lb3/Using-built-in-models.html
+  translated: true
+  output: 'web, pdf'
+  children:
+
+  - title: 'Extending built-in models'
+    url: /doc/zh/lb3/Extending-built-in-models.html
+    translated: true
+    output: 'web, pdf'
+
+  - title: 'Adding remote methods to built-in models'
+    url: /doc/zh/lb3/Adding-remote-methods-to-built-in-models.html
+    translated: true
+    output: 'web, pdf'
+
+  - title: 'Creating database tables for built-in models'
+    url: /doc/zh/lb3/Creating-database-tables-for-built-in-models.html
+    translated: true
+    output: 'web, pdf'
+
+  - title: 'Model property reference'
+    url: /doc/zh/lb3/Model-property-reference.html
+    translated: true
+    output: 'web, pdf'
+
+  - title: 'Built-in models REST API'
+    url: /doc/zh/lb3/Built-in-models-REST-API.html
+    translated: true
+    output: 'web'
+    children:
+
+    - title: 'PersistedModel REST API'
+      url: /doc/zh/lb3/PersistedModel-REST-API.html
+      translated: true
+      output: 'web, pdf'
+
+    - title: 'Access token REST API'
+      url: /doc/zh/lb3/Access-token-REST-API.html
+      translated: true
+      output: 'web, pdf'
+
+    - title: 'ACL REST API'
+      url: /doc/zh/lb3/ACL-REST-API.html
+      translated: true
+      output: 'web, pdf'
+
+    - title: 'Application REST API'
+      url: /doc/zh/lb3/Application-REST-API.html
+      translated: true
+      output: 'web, pdf'
+
+    - title: 'Relation REST API'
+      url: /doc/zh/lb3/Relation-REST-API.html
+      translated: true
+      output: 'web, pdf'
+
+    - title: 'Role REST API'
+      url: /doc/zh/lb3/Role-REST-API.html
+      translated: true
+      output: 'web, pdf'
+
+    - title: 'User REST API'
+      url: /doc/zh/lb3/User-REST-API.html
+      translated: true
+      output: 'web, pdf'
+
+- title: '连接模型到数据源'
+  url: /doc/zh/lb3/Connecting-models-to-data-sources.html
+  translated: true
+  output: 'web, pdf'
+  children:
+
+  - title: 'Creating a database schema from models'
+    url: /doc/zh/lb3/Creating-a-database-schema-from-models.html
+    translated: true
+    output: 'web, pdf'
+
+  - title: 'Understanding data sources'
+    url: /doc/zh/lb3/Advanced-topics-data-sources.html
+    translated: true
+    output: 'web'
+    children:
+
+  - title: 'Using database transactions'
+    url: /doc/zh/lb3/Using-database-transactions.html
+    translated: true
+    output: 'web, pdf'
+
+  - title: 'Connecting to SOAP web services'
+    url: /doc/zh/lb3/Connecting-to-SOAP.html
+    translated: true
+    output: 'web, pdf'
+
+  - title: 'Executing native SQL'
+    url: /doc/zh/lb3/Executing-native-SQL.html
+    translated: true
+    output: 'web, pdf'
+
+  - title: 'Building a connector'
+    url: /doc/zh/lb3/Building-a-connector.html
+    translated: true
+    output: 'web'
+    children:
+
+    - title: 'Implementing create, retrieve, update, and delete methods'
+      url: /doc/zh/lb3/Implementing-create-retrieve-update-and-delete-methods.html
+      translated: true
+      output: 'web, pdf'
+
+    - title: 'Implementing model discovery'
+      url: /doc/zh/lb3/Implementing-model-discovery.html
+      translated: true
+      output: 'web, pdf'
+
+    - title: 'Implementing auto-migration'
+      url: /doc/zh/lb3/Implementing-auto-migration.html
+      translated: true
+      output: 'web, pdf'
+
+- title: '如何处理数据'
+  url: /doc/zh/lb3/Working-with-data.html
+  translated: true
+  output: 'web, pdf'
+  children:
+
+  - title: 'Creating, updating, and deleting data'
+    url: /doc/zh/lb3/Creating-updating-and-deleting-data.html
+    translated: true
+    output: 'web, pdf'
+
+  - title: 'Querying data'
+    url: /doc/zh/lb3/Querying-data.html
+    translated: true
+    output: 'web'
+    children:
+
+    - title: 'Fields filter'
+      url: /doc/zh/lb3/Fields-filter.html
+      translated: true
+      output: 'web, pdf'
+
+    - title: 'Include filter'
+      url: /doc/zh/lb3/Include-filter.html
+      translated: true
+      output: 'web, pdf'
+
+    - title: 'Limit filter'
+      url: /doc/zh/lb3/Limit-filter.html
+      translated: true
+      output: 'web, pdf'
+
+    - title: 'Order filter'
+      url: /doc/zh/lb3/Order-filter.html
+      translated: true
+      output: 'web, pdf'
+
+    - title: 'Skip filter'
+      url: /doc/zh/lb3/Skip-filter.html
+      translated: true
+      output: 'web, pdf'
+
+    - title: 'Where filter'
+      url: /doc/zh/lb3/Where-filter.html
+      translated: true
+      output: 'web, pdf'
+
+  - title: 'Advanced topics: data'
+    url: /doc/zh/lb3/Advanced-topics-data.html
+    translated: true
+    output: 'web'
+    children:
+
+    - title: 'Realtime server-sent events'
+      url: /doc/zh/lb3/Realtime-server-sent-events.html
+      translated: true
+      output: 'web, pdf'
+
+    - title: 'AngularJS Live Set'
+      url: /doc/zh/lb3/AngularJS-LiveSet.html
+      translated: true
+      output: 'web, pdf'
+
+    - title: 'AngularJS Live Set example'
+      url: /doc/zh/lb3/AngularJS-LiveSet-Example.html
+      translated: true
+      output: 'web, pdf'
+
+    - title: 'Real-time apps AngularJS using socket.io'
+      url: /doc/zh/lb3/Realtime-socket-io.html
+      translated: true
+      output: 'web, pdf'
+
+- title: '添加应用逻辑'
+  url: /doc/zh/lb3/Adding-application-logic.html
+  translated: true
+  output: 'web, pdf'
+  children:
+
+  - title: 'Working with LoopBack objects'
+    url: /doc/zh/lb3/Working-with-LoopBack-objects.html
+    translated: true
+    output: 'web, pdf'
+
+  - title: 'Adding logic to models'
+    url: /doc/zh/lb3/Adding-logic-to-models.html
+    translated: true
+    output: 'web'
+    children:
+
+    - title: 'Remote methods'
+      url: /doc/zh/lb3/Remote-methods.html
+      translated: true
+      output: 'web, pdf'
+
+    - title: 'Remote hooks'
+      url: /doc/zh/lb3/Remote-hooks.html
+      translated: true
+      output: 'web, pdf'
+
+    - title: 'Operation hooks'
+      url: /doc/zh/lb3/Operation-hooks.html
+      translated: true
+      output: 'web, pdf'
+
+    - title: 'Connector hooks'
+      url: /doc/zh/lb3/Connector-hooks.html
+      translated: true
+      output: 'web, pdf'
+
+    - title: 'Tutorial: Application logic'
+      url: /doc/zh/lb3/Tutorial-Adding-application-logic.html
+      translated: true
+      output: 'web, pdf'
+
+  - title: 'Defining boot scripts'
+    url: /doc/zh/lb3/Defining-boot-scripts.html
+    translated: true
+    output: 'web, pdf'
+
+  - title: 'Defining mixins'
+    url: /doc/zh/lb3/Defining-mixins.html
+    translated: true
+    output: 'web, pdf'
+
+  - title: 'Defining middleware'
+    url: /doc/zh/lb3/Defining-middleware.html
+    translated: true
+    output: 'web, pdf'
+
+  - title: 'Middleware example'
+    url: /doc/zh/lb3/Middleware-example.html
+    translated: true
+    output: 'web, pdf'
+
+  - title: 'Using current context'
+    url: /doc/zh/lb3/Using-current-context.html
+    translated: true
+    output: 'web, pdf'
+
+  - title: Events
+    url: /doc/zh/lb3/Events.html
+    translated: true
+    output: 'web, pdf'
+
+  - title: 'Using promises'
+    url: /doc/zh/lb3/Using-promises.html
+    translated: true
+    output: 'web, pdf'
+
+- title: '运行和调试应用'
+  url: /doc/zh/lb3/Running-and-debugging-apps.html
+  translated: true
+  output: 'web, pdf'
+  children:
+
+    - title: 'Setting debug strings'
+      url: /doc/zh/lb3/Setting-debug-strings.html
+      translated: true
+      output: 'web, pdf'
+
+    - title: 'Using strong-error-handler'
+      url: /doc/zh/lb3/Using-strong-error-handler.html
+      translated: true
+      output: 'web, pdf'
+
+    - title: 'Preparing for deployment'
+      url: /doc/zh/lb3/Preparing-for-deployment.html
+      translated: true
+      output: 'web, pdf'
+
+    - title: 'Running LoopBack apps on Bluemix'
+      url: /doc/zh/lb3/LoopBack-on-Bluemix.html
+      translated: true
+      output: 'web, pdf'
+
+- title: 'LoopBack 组件'
+  url: /doc/zh/lb3/LoopBack-components.html
+  translated: true
+  output: 'web, pdf'
+  children:
+
+  - title: 'OAuth 2.0 component'
+    url: /doc/zh/lb3/OAuth-2.0.html
+    translated: true
+    output: 'web, pdf'
+
+  - title: 'Push notification component'
+    url: /doc/zh/lb3/Push-notifications.html
+    translated: true
+    output: 'web, pdf'
+    children:
+
+    - title: 'Push notifications for iOS apps'
+      url: /doc/zh/lb3/Push-notifications-for-iOS-apps.html
+      translated: true
+      output: 'web, pdf'
+
+    - title: 'Push notifications for Android apps'
+      url: /doc/zh/lb3/Push-notifications-for-Android-apps.html
+      translated: true
+      output: 'web, pdf'
+
+  - title: 'Storage component'
+    url: /doc/zh/lb3/Storage-component.html
+    translated: true
+    output: 'web'
+    children:
+
+    - title: 'Storage component REST API'
+      url: /doc/zh/lb3/Storage-component-REST-API.html
+      translated: true
+      output: 'web, pdf'
+
+    - title: 'Storage component example'
+      url: /doc/zh/lb3/Storage-example.html
+      translated: true
+      output: 'web, pdf'
+
+  - title: 'Passport login component'
+    url: /doc/zh/lb3/Third-party-login-using-Passport.html
+    translated: true
+    output: 'web'
+    children:
+
+    - title: 'Configuring providers.json'
+      url: /doc/zh/lb3/Configuring-providers.json.html
+      translated: true
+      output: 'web, pdf'
+
+    - title: 'Tutorial: third-party login'
+      url: /doc/zh/lb3/Tutorial-third-party-login.html
+      translated: true
+      output: 'web, pdf'
+
+  - title: Synchronization component
+    url: /doc/zh/lb3/Synchronization.html
+    translated: true
+    output: 'web,'
+    children:
+
+    - title: 'Tutorial: Offline Synchronization'
+      url: /doc/zh/lb3/Tutorial-Offline-Synchronization.html
+      translated: true
+      output: 'web, pdf'
+
+    - title: 'Advanced topics - sync'
+      url: /doc/zh/lb3/Advanced-topics-sync.html
+      translated: true
+      output: 'web, pdf'
+
+  - title: 'Creating components'
+    url: /doc/zh/lb3/Creating-components.html
+    translated: true
+    output: 'web, pdf'
+
+- title: '命令行工具'
+  url: /doc/zh/lb3/Command-line-tools.html
+  translated: true
+  output: 'web, pdf'
+  children:
+
+  - title: 'ACL generator'
+    url: /doc/zh/lb3/ACL-generator.html
+    translated: true
+    output: 'web, pdf'
+
+  - title: 'API definition generator'
+    url: /doc/zh/lb3/API-definition-generator.html
+    translated: true
+    output: 'web, pdf'
+
+  - title: 'Application generator'
+    url: /doc/zh/lb3/Application-generator.html
+    translated: true
+    output: 'web, pdf'
+
+  - title: 'Bluemix configuration generator'
+    url: /doc/zh/lb3/Bluemix-config-generator.html
+    translated: true
+    output: 'web, pdf'
+
+  - title: 'Boot script generator'
+    url: /doc/zh/lb3/Boot-script-generator.html
+    translated: true
+    output: 'web, pdf'
+
+  - title: 'Data source generator'
+    url: /doc/zh/lb3/Data-source-generator.html
+    translated: true
+    output: 'web, pdf'
+
+  - title: 'Middleware generator'
+    url: /doc/zh/lb3/Middleware-generator.html
+    translated: true
+    output: 'web, pdf'
+
+  - title: 'Model generator'
+    url: /doc/zh/lb3/Model-generator.html
+    translated: true
+    output: 'web, pdf'
+
+  - title: 'Oracle installer command'
+    url: /doc/zh/lb3/Oracle-installer-command.html
+    translated: true
+    output: 'web, pdf'
+
+  - title: 'Property generator'
+    url: /doc/zh/lb3/Property-generator.html
+    translated: true
+    output: 'web, pdf'
+
+  - title: 'Refresh definitions command'
+    url: /doc/zh/lb3/Refresh-definitions-command.html
+    translated: true
+    output: 'web, pdf'
+
+  - title: 'Relation generator'
+    url: /doc/zh/lb3/Relation-generator.html
+    translated: true
+    output: 'web, pdf'
+
+  - title: 'Remote method generator'
+    url: /doc/zh/lb3/Remote-method-generator.html
+    translated: true
+    output: 'web, pdf'
+
+  - title: 'SOAP generator'
+    url: /doc/zh/lb3/SOAP-generator.html
+    translated: true
+    output: 'web, pdf'
+
+  - title: 'Swagger generator'
+    url: /doc/zh/lb3/Swagger-generator.html
+    translated: true
+    output: 'web, pdf'
+
+- title: '客户端 SDK'
+  url: /doc/zh/lb3/Client-SDKs.html
+  translated: true
+  output: 'web, pdf'
+  children:
+
+  - title: 'iOS SDK'
+    url: /doc/zh/lb3/iOS-SDK.html
+    translated: true
+    output: 'web, pdf'
+    children:
+
+    - title: 'Getting started with the iOS SDK'
+      url: /doc/zh/lb3/IOS-getting-started.html
+      translated: true
+      output: 'web, pdf'
+
+  - title: 'Android SDK'
+    url: /doc/zh/lb3/Android-SDK.html
+    translated: true
+    output: 'web'
+    children:
+
+    - title: 'Getting started with the Android SDK'
+      url: /doc/zh/lb3/Tutorial-android-getting-started.html
+      translated: true
+      output: 'web, pdf'
+
+    - title: 'Working with files using the Android SDK'
+      url: /doc/zh/lb3/Working-with-files-using-the-Android-SDK.html
+      translated: true
+      output: 'web, pdf'
+
+    - title: 'Push notifications using Android SDK'
+      url: /doc/zh/lb3/Push-notifications-using-Android-SDK.html
+      translated: true
+      output: 'web, pdf'
+
+    - title: 'Working with the LocalInstallation class'
+      url: /doc/zh/lb3/Working-with-the-LocalInstallation-class.html
+      translated: true
+      output: 'web, pdf'
+
+  - title: 'AngularJS SDK'
+    url: /doc/zh/lb3/AngularJS-JavaScript-SDK.html
+    translated: true
+    output: 'web'
+    children:
+
+    - title: 'Angular example app'
+      url: /doc/zh/lb3/Angular-example-app.html
+      translated: true
+      output: 'web, pdf'
+
+    - title: 'AngularJS Grunt plugin'
+      url: /doc/zh/lb3/AngularJS-Grunt-plugin.html
+      translated: true
+      output: 'web, pdf'
+
+  - title: 'Xamarin SDK'
+    url: /doc/zh/lb3/Xamarin-SDK.html
+    translated: true
+    output: 'web'
+    children:
+
+    - title: 'Xamarin client API'
+      url: /doc/zh/lb3/Xamarin-client-API.html
+      translated: true
+      output: 'web, pdf'
+
+    - title: 'Xamarin example app'
+      url: /doc/zh/lb3/Xamarin-example-app.html
+      translated: true
+      output: 'web, pdf'
+
+  - title: 'Isomorphic LoopBack'
+    url: /doc/zh/lb3/LoopBack-in-the-client.html
+    translated: true
+    output: 'web'
+    children:
+
+    - title: 'Running LoopBack in the browser'
+      url: /doc/zh/lb3/Running-LoopBack-in-the-browser.html
+      translated: true
+      output: 'web, pdf'
+
+    - title: 'Using Browserify'
+      url: /doc/zh/lb3/Using-Browserify.html
+      translated: true
+      output: 'web, pdf'
+
+    - title: 'Isomorphic example'
+      url: /doc/zh/lb3/Isomorphic-LoopBack-example.html
+      translated: true
+      output: 'web, pdf'
+
+- title: '各连接器参考文档'
+  url: /doc/zh/lb3/Connectors-reference.html
+  translated: true
+  output: 'web'
+  children:
+
+  - title: 'Memory connector'
+    url: /doc/zh/lb3/Memory-connector.html
+    translated: true
+    output: 'web, pdf'
+
+  - title: 'Database connectors'
+    url: /doc/zh/lb3/Database-connectors.html
+    translated: true
+    output: 'web'
+    children:
+
+    - title: 'Cassandra connector'
+      url: /doc/zh/lb3/Cassandra-connector.html
+      translated: true
+      output: 'web, pdf'
+
+    - title: 'Cloudant connector'
+      url: /doc/zh/lb3/Cloudant-connector.html
+      translated: true
+      output: 'web, pdf'
+
+    - title: DashDB
+      url: /doc/zh/lb3/DashDB.html
+      translated: true
+      output: 'web, pdf'
+
+    - title: 'DB2 connector'
+      url: /doc/zh/lb3/DB2-connector.html
+      translated: true
+      output: 'web, pdf'
+
+    - title: 'DB2 for iSeries connector'
+      url: /doc/zh/lb3/DB2-iSeries-connector.html
+      translated: true
+      output: 'web, pdf'
+
+    - title: 'DB2 for z/OS'
+      url: /doc/zh/lb3/DB2-for-z-OS.html
+      translated: true
+      output: 'web, pdf'
+
+    - title: Informix connector
+      url: /doc/zh/lb3/Informix.html
+      translated: true
+      output: 'web, pdf'
+
+    - title: 'MongoDB connector'
+      url: /doc/zh/lb3/MongoDB-connector.html
+      translated: true
+      output: 'web, pdf'
+      children:
+
+      - title: 'MongoDB Connector Tutorial'
+        url: /doc/zh/lb3/Connecting-to-MongoDB.html
+        translated: true
+        output: 'web, pdf'
+
+      - title: 'Using MongoLab'
+        url: /doc/zh/lb3/Using-MongoLab.html
+        translated: true
+        output: 'web, pdf'
+
+    - title: 'MySQL connector'
+      url: /doc/zh/lb3/MySQL-connector.html
+      translated: true
+      output: 'web, pdf'
+      children:
+
+      - title: 'MySQL Connector Tutorial'
+        url: /doc/zh/lb3/Connecting-to-MySQL.html
+        translated: true
+        output: 'web, pdf'
+
+    - title: 'Oracle connector'
+      url: /doc/zh/lb3/Oracle-connector.html
+      translated: true
+      output: 'web, pdf'
+      children:
+
+      - title: 'Installing the Oracle connector'
+        url: /doc/zh/lb3/Installing-the-Oracle-connector.html
+        translated: true
+        output: 'web, pdf'
+
+      - title: 'Oracle connector tutorial'
+        url: /doc/zh/lb3/Connecting-to-Oracle.html
+        translated: true
+        output: 'web, pdf'
+
+    - title: 'PostgreSQL connector'
+      url: /doc/zh/lb3/PostgreSQL-connector.html
+      translated: true
+      output: 'web, pdf'
+      children:
+
+      - title: 'PostgreSQL connector tutorial'
+        url: /doc/zh/lb3/Connecting-to-PostgreSQL.html
+        translated: true
+        output: 'web, pdf'
+
+    - title: 'Redis connector'
+      url: /doc/zh/lb3/Redis-connector.html
+      translated: true
+      output: 'web, pdf'
+
+    - title: 'Redis key-value connector'
+      url: /doc/zh/lb3/kv-redis-connector.html
+      translated: true
+      output: 'web, pdf'
+      children:
+
+      - title: 'KV connector example'
+        url: /doc/zh/lb3/Example-kv-connector.html
+        translated: true
+        output: 'web, pdf'
+
+    - title: 'SQL Server connector'
+      url: /doc/zh/lb3/SQL-Server-connector.html
+      translated: true
+      output: 'web, pdf'
+      children:
+
+      - title: 'SQL Server connector tutorial'
+        url: /doc/zh/lb3/Connecting-to-Microsoft-SQL-Server.html
+        translated: true
+        output: 'web, pdf'
+
+    - title: 'SQLite3 connector'
+      url: /doc/zh/lb3/SQLite3.html
+      translated: true
+      output: 'web, pdf'
+
+  - title: 'Other connectors'
+    url: /doc/zh/lb3/Other-connectors.html
+    translated: true
+    output: 'web'
+    children:
+
+    - title: 'Email connector'
+      url: /doc/zh/lb3/Email-connector.html
+      translated: true
+      output: 'web, pdf'
+
+    - title: 'JSON RPC connector'
+      url: /doc/zh/lb3/JSON-RPC-connector.html
+      translated: true
+      output: 'web, pdf'
+
+    - title: 'MQ Light connector'
+      url: /doc/zh/lb3/MQLight-connector.html
+      translated: true
+      output: 'web, pdf'
+
+    - title: 'Push connector'
+      url: /doc/zh/lb3/Push-connector.html
+      translated: true
+      output: 'web, pdf'
+
+    - title: 'Remote connector'
+      url: /doc/zh/lb3/Remote-connector.html
+      translated: true
+      output: 'web, pdf'
+      children:
+
+      - title: 'Remote connector example'
+        url: /doc/zh/lb3/Remote-connector-example.html
+        translated: true
+        output: 'web, pdf'
+
+      - title: 'Strong Remoting'
+        url: /doc/zh/lb3/Strong-Remoting.html
+        translated: true
+        output: 'web, pdf'
+
+    - title: 'REST connector'
+      url: /doc/zh/lb3/REST-connector.html
+      translated: true
+      output: 'web, pdf'
+      children:
+
+      - title: 'REST connector example'
+        url: /doc/zh/lb3/REST-connector-example.html
+        translated: true
+        output: 'web, pdf'
+
+    - title: 'SOAP connector'
+      url: /doc/zh/lb3/SOAP-connector.html
+      translated: true
+      output: 'web, pdf'
+      children:
+
+      - title: 'Strong-soap'
+        url: /doc/zh/lb3/Strong-soap.html
+        translated: true
+        output: 'web, pdf'
+
+      - title: 'SOAP connector example'
+        url: /doc/zh/lb3/SOAP-Connector-example.html
+        translated: true
+        output: 'web, pdf'
+
+    - title: 'Storage connector'
+      url: /doc/zh/lb3/Storage-connector.html
+      translated: true
+      output: 'web, pdf'
+
+    - title: 'Swagger connector'
+      url: /doc/zh/lb3/Swagger-connector.html
+      translated: true
+      output: 'web, pdf'
+
+  - title: 'Community connectors'
+    url: /doc/zh/lb3/Community-connectors.html
+    translated: true
+    output: 'web, pdf'
+
+- title: '项目文件布局结构'
+  url: /doc/zh/lb3/Project-layout-reference.html
+  translated: true
+  output: 'web, pdf'
+  children:
+
+  - title: 'client directory'
+    url: /doc/zh/lb3/client-directory.html
+    translated: true
+    output: 'web, pdf'
+
+  - title: 'common directory'
+    url: /doc/zh/lb3/common-directory.html
+    translated: true
+    output: 'web'
+    children:
+
+    - title: 'Model definition JSON file'
+      url: /doc/zh/lb3/Model-definition-JSON-file.html
+      translated: true
+      output: 'web, pdf'
+
+    - title: 'Model extension file'
+      url: /doc/zh/lb3/Model-extension-file.html
+      translated: true
+      output: 'web, pdf'
+
+  - title: package.json
+    url: /doc/zh/lb3/package.json.html
+    translated: true
+    output: 'web, pdf'
+
+  - title: 'server directory'
+    url: /doc/zh/lb3/server-directory.html
+    translated: true
+    output: 'web'
+    children:
+
+    - title: component-config.json
+      url: /doc/zh/lb3/component-config.json.html
+      translated: true
+      output: 'web, pdf'
+
+    - title: config.json
+      url: /doc/zh/lb3/config.json.html
+      translated: true
+      output: 'web, pdf'
+
+    - title: datasources.json
+      url: /doc/zh/lb3/datasources.json.html
+      translated: true
+      output: 'web, pdf'
+
+    - title: middleware.json
+      url: /doc/zh/lb3/middleware.json.html
+      translated: true
+      output: 'web, pdf'
+
+    - title: middleware.development.json
+      url: /doc/zh/lb3/middleware.development.json.html
+      translated: true
+      output: 'web, pdf'
+
+    - title: model-config.json
+      url: /doc/zh/lb3/model-config.json.html
+      translated: true
+      output: 'web, pdf'
+
+    - title: server.js
+      url: /doc/zh/lb3/server.js.html
+      translated: true
+      output: 'web, pdf'
+
+- title: 'Node 相关参考文档'
+  url: /doc/zh/lb3/Node-reference.html
+  translated: true
+  output: 'web, pdf'
+  children:
+
+  - title: 'LoopBack types'
+    url: /doc/zh/lb3/LoopBack-types.html
+    translated: true
+    output: 'web, pdf'
+
+  - title: 'Geopoint type'
+    url: /doc/zh/lb3/Geotype.html
+    translated: true
+    output: 'web, pdf'
+
+  - title: 'Valid names in LoopBack'
+    url: /doc/zh/lb3/Valid-names-in-LoopBack.html
+    translated: true
+    output: 'web, pdf'
+
+  - title: 'Basic model object'
+    url: /doc/zh/lb3/Basic-model-object.html
+    translated: true
+    output: 'web, pdf'
+
+  - title: 'Connected model object'
+    url: /doc/zh/lb3/Connected-model-object.html
+    translated: true
+    output: 'web, pdf'
+
+  - title: 'Error object'
+    url: /doc/zh/lb3/Error-object.html
+    translated: true
+    output: 'web, pdf'
+
+  - title: 'LoopBack middleware'
+    url: /doc/zh/lb3/LoopBack-middleware.html
+    translated: true
+    output: 'web, pdf'
+
+- title: '发布/订阅机制'
+  url: /doc/zh/lb3/Publish-subscribe-messaging.html
+  translated: true
+  output: 'web, pdf'
+  children:
+
+  - title: 'Strong Pub-sub'
+    url: /doc/zh/lb3/Strong-pub-sub.html
+    translated: true
+    output: 'web, pdf'
+
+  - title: 'Pub-sub bridge'
+    url: /doc/zh/lb3/Pub-sub-bridge.html
+    translated: true
+    output: 'web, pdf'
+
+  - title: 'MQTT adapter'
+    url: /doc/zh/lb3/MQTT-adapter.html
+    translated: true
+    output: 'web, pdf'
+
+  - title: 'Redis pub-sub adapter'
+    url: /doc/zh/lb3/Redis-pub-sub-adapter.html
+    translated: true
+    output: 'web, pdf'
+
+  - title: 'Primus pub-sub adapter'
+    url: /doc/zh/lb3/Primus-pub-sub-adapter.html
+    translated: true
+    output: 'web, pdf'
+
+  - title: 'Node pub-sub example app'
+    url: /doc/zh/lb3/Pub-sub-example.html
+    translated: true
+    output: 'web, pdf'
+
+  - title: 'LoopBack pub-sub example app'
+    url: /doc/zh/lb3/Pub-sub-Loopback-example.html
+    translated: true
+    output: 'web, pdf'
+
+- title: '所有的标签(tags)'
+  url: /doc/zh/lb3/All-tags.html
+  translated: true
+  output: 'web, pdf'

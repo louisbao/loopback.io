@@ -54,3 +54,5 @@ topnav_dropdowns:
           url: /doc/ru/lb2/
         - title: "中文 (v2)"
           url: /doc/zh/lb2/
+        - title: "中文 (v3)"
+          url: /doc/zh/lb3/
