@@ -199,7 +199,7 @@ children:
     translated: true
     output: 'web, pdf'
 
-  - title: 'Partitioning users with realms'
+  - title: '使用 realms 域区分用户群体'
     url: /doc/zh/lb3/Partitioning-users-with-realms.html
     translated: true
     output: 'web, pdf'

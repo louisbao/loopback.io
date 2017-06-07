@@ -1,6 +1,6 @@
 ---
-title: "Partitioning users with realms"
-lang: en
+title: "使用 realms 域区分用户群体"
+lang: zh
 layout: page
 keywords: LoopBack
 tags:
@@ -14,26 +14,24 @@ summary:
 * [Third-party login using Passport](Third-party-login-using-Passport.html)
 " %}
 
-By default, the LoopBack User model manages all users in a global namespace. It does not isolate different applications.
-In some cases, you may want to partition users into multiple namespaces so that different applications have separate users. LoopBack uses _realms_ to support: 
+默认情况下，LoopBack 的 User 用户模型将所有的用户置于同一个空间，而没有根据不同 `客应用` 隔离用户群。
+在有些情况下，你有可能需要将用户根据不同 `客应用` 进行分群。LoopBack 通过 _realms_ 实现以下功能：
 
-* Users and applications belonging to a single global realm (or no realm). 
-* Distributing users and applications to multiple realms. A user or application can belong to only one realm. Each realm can have many users and many applications. 
-* Each application is a unique realm and each user belongs to an application (via a realm). 
+* 用户和客应用可以被设置为不属于任何域或置于同一个域。
+* 将用户和客应用分别置于不同的域，一个用户或客应用可以只属于一个域。一个域也可以有多个用户和多个客应用。
+* 一个客应用可以有一个单独域，用户可以通过这个域归属于该客应用。
 
-Each application or user instance still has a unique ID across realms. When an application/user is signed up, it can be assigned to a realm.
-The [`User.login()`](http://apidocs.strongloop.com/loopback/#user-login) function:
+一个客应用或一个用户在域内有一个唯一的 ID，当客应用或用户注册时可以指定一个域。
+在 [`User.login()`](http://apidocs.strongloop.com/loopback/#user-login) 时：
 
-* Honors the realm property from the user credential.
-* Allows the realm to be extracted from the prefix of username/email.
+* 允许从用户名和邮件地址前缀中提取 realm 域。
 
-Two settings in the User model control the realms:
+可以通过用户模型中的两项配置控制 realm 域的行为：
 
-* `realmRequired` (Boolean): Default is `false`.
-* `realmDelimiter` (string): If configured, the email or username can be prefixed as `<realm><realmDelimiter><username or email>`, for example,
-  `myRealm:john` or `myRealm:john@sample.com`. If not present, no prefix will be checked against username or email. 
+* `realmRequired` (Boolean): 默认是 `false`。
+* `realmDelimiter` (string): 前缀分隔符 `:` 例如 `myRealm:john` 或 `myRealm:john@sample.com`。如果为空，则不检查和提取前缀。
 
-For example,
+例如，
 
 {% include code-caption.html content="server/model-config.json" %}
 ```javascript
@@ -46,7 +44,7 @@ For example,
 },
 ```
 
-When realms are enabled, you must provide a `realm` property when you call `User.create()`, for example:
+当域启用后，你可以在调用 `User.create()` 时提供一个 `realm` 属性值，例如：
 
 ```javascript
 User.create({
@@ -57,7 +55,7 @@ User.create({
 }, callback);
 ```
 
-To login a user within a realm, the credentials should include the realm property too.
+在登录时也可以指定一个 `realm` 域值，
 
 ```javascript
 User.login({
@@ -67,7 +65,7 @@ User.login({
 }, callback);
 ```
 
-If the realmDelimiter is configured (for example, to ":"), the login allows the realm to be passed in as prefix to the username or email.
+如果指定过 `realmDelimiter` (例如 ":")，则可以在用户名或邮件地址前添加前缀。
 
 ```javascript
 User.login({
